@@ -4,8 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export const WhatsAppFloat: React.FC = () => {
   const handleWhatsAppClick = () => {
-    // Replace with actual WhatsApp number
-    const phoneNumber = '1234567890'; // Format: country code + number (without +)
+    const phoneNumber = '524491431962'; // Format: country code + number (without +)
     const message = encodeURIComponent('Hola! Me interesa conocer más sobre tus servicios de desarrollo de software.');
     const url = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(url, '_blank');

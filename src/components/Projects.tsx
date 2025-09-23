@@ -15,24 +15,40 @@ const translations = {
       {
         title: 'Plataforma E-commerce',
         description: 'Plataforma completa de comercio electrónico con gestión de inventario, pagos y analytics.',
-        image: '/project-ecommerce.jpg',
+        image: '/project-ecommerce.webp',
         technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
-        title: 'App de Gestión Empresarial',
-        description: 'Sistema de gestión completo con dashboard interactivo y reportes en tiempo real.',
-        image: '/project-dashboard.jpg', 
-        technologies: ['Next.js', 'TypeScript', 'Prisma', 'ChartJS'],
+        title: 'StartConsulting - Landing Page',
+        description: 'Landing page profesional para consultoría de software con diseño responsive y animaciones.',
+        image: '/project-consulting.webp', 
+        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
-        title: 'API REST Escalable',
-        description: 'API robusta con arquitectura de microservicios, autenticación JWT y documentación completa.',
-        image: '/project-api.jpg',
-        technologies: ['Express', 'MongoDB', 'Docker', 'Swagger'],
+        title: 'Body Calculator - Web App',
+        description: 'Aplicación web para cálculos corporales con interfaz moderna y funcionalidades avanzadas.',
+        image: '/project-bodycalculator.webp',
+        technologies: ['React', 'TypeScript', 'Vite', 'PWA'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Sheet From Form - Automatización',
+        description: 'Sistema de automatización que conecta formularios web con hojas de cálculo en tiempo real.',
+        image: '/project-sheetform.webp',
+        technologies: ['Node.js', 'Google Sheets API', 'Webhook', 'Express'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Zetio - App Deportiva',
+        description: 'Plataforma moderna para gestión de torneos deportivos con interfaz mobile-first.',
+        image: '/project-zetio.webp',
+        technologies: ['React Native', 'Firebase', 'Redux', 'Expo'],
         liveUrl: '#',
         codeUrl: '#'
       }
@@ -47,24 +63,40 @@ const translations = {
       {
         title: 'E-commerce Platform',
         description: 'Complete e-commerce platform with inventory management, payments and analytics.',
-        image: '/project-ecommerce.jpg',
+        image: '/project-ecommerce.webp',
         technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
-        title: 'Business Management App',
-        description: 'Complete management system with interactive dashboard and real-time reports.',
-        image: '/project-dashboard.jpg',
-        technologies: ['Next.js', 'TypeScript', 'Prisma', 'ChartJS'],
+        title: 'StartConsulting - Landing Page',
+        description: 'Professional landing page for software consulting with responsive design and animations.',
+        image: '/project-consulting.webp',
+        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
-        title: 'Scalable REST API',
-        description: 'Robust API with microservices architecture, JWT authentication and complete documentation.',
-        image: '/project-api.jpg',
-        technologies: ['Express', 'MongoDB', 'Docker', 'Swagger'],
+        title: 'Body Calculator - Web App',
+        description: 'Web application for body calculations with modern interface and advanced features.',
+        image: '/project-bodycalculator.webp',
+        technologies: ['React', 'TypeScript', 'Vite', 'PWA'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Sheet From Form - Automation',
+        description: 'Automation system that connects web forms with spreadsheets in real-time.',
+        image: '/project-sheetform.webp',
+        technologies: ['Node.js', 'Google Sheets API', 'Webhook', 'Express'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Zetio - Sports App',
+        description: 'Modern platform for sports tournament management with mobile-first interface.',
+        image: '/project-zetio.webp',
+        technologies: ['React Native', 'Firebase', 'Redux', 'Expo'],
         liveUrl: '#',
         codeUrl: '#'
       }
@@ -86,7 +118,7 @@ export const Projects: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {t.projects.map((project, index) => (
             <Card 
               key={index}

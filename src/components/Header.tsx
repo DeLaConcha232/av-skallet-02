@@ -46,7 +46,11 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16 px-4">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-primary">av-skallet</h1>
+            <img 
+              src="/logo-white.webp" 
+              alt="av-skallet" 
+              className="h-8 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

@@ -21,7 +21,7 @@ const translations = {
       sending: 'Enviando...'
     },
     info: [
-      { icon: Mail, label: 'Email', value: 'hello@av-skallet.com' },
+    { icon: Mail, label: 'Email', value: 'avskallet@gmail.com' },
       { icon: Phone, label: 'Teléfono', value: '+1 (555) 123-4567' },
       { icon: MapPin, label: 'Ubicación', value: 'España' }
     ],
@@ -39,7 +39,7 @@ const translations = {
       sending: 'Sending...'
     },
     info: [
-      { icon: Mail, label: 'Email', value: 'hello@av-skallet.com' },
+      { icon: Mail, label: 'Email', value: 'avskallet@gmail.com' },
       { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567' },
       { icon: MapPin, label: 'Location', value: 'Spain' }
     ],
@@ -71,7 +71,17 @@ export const Contact: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
+    // Create mailto link with form data
+    const mailtoLink = `mailto:avskallet@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      `Nombre: ${formData.name}\n` +
+      `Email: ${formData.email}\n\n` +
+      `Mensaje:\n${formData.message}`
+    )}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
+    // Show success message
     setTimeout(() => {
       toast({
         title: t.success,
@@ -86,7 +96,7 @@ export const Contact: React.FC = () => {
         message: ''
       });
       setIsSubmitting(false);
-    }, 1500);
+    }, 1000);
   };
 
   return (
