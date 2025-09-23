@@ -11,11 +11,11 @@ const translations = {
       {
         icon: Code,
         title: 'Desarrollo Web',
-        description: 'Aplicaciones web modernas, rápidas y escalables usando las últimas tecnologías.'
+        description: 'Aplicaciones web modernas, responsivas, rápidas y escalables usando las últimas tecnologías.'
       },
       {
         icon: Smartphone, 
-        title: 'Aplicaciones Móviles',
+        title: 'Aplicaciones Web Pogresivas (PWA)',
         description: 'Apps nativas y cross-platform que ofrecen experiencias excepcionales.'
       },
       {
@@ -37,11 +37,11 @@ const translations = {
       {
         icon: Code,
         title: 'Web Development', 
-        description: 'Modern, fast and scalable web applications using the latest technologies.'
+        description: 'Modern, responsive, fast and scalable web applications using the latest technologies.'
       },
       {
         icon: Smartphone,
-        title: 'Mobile Applications',
+        title: 'Progressive web applications (PWA)',
         description: 'Native and cross-platform apps that deliver exceptional experiences.'
       },
       {
