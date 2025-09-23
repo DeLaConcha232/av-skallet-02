@@ -109,9 +109,9 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Contacto</h4>
             <div className="space-y-2 text-muted-foreground">
-              <div>hello@av-skallet.com</div>
-              <div>+1 (555) 123-4567</div>
-              <div>España</div>
+              <div>avskallet@gmail.com</div>
+              <div>449-143-1962</div>
+              <div>Mexico</div>
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ export const Footer: React.FC = () => {
               © {currentYear} av-skallet. {t.rights}
             </div>
             <div className="flex items-center text-sm text-muted-foreground">
-              {t.madeWith} <Heart className="h-4 w-4 text-red-500 mx-1" /> en España
+              {t.madeWith} <Heart className="h-4 w-4 text-red-500 mx-1" /> en Mexico
             </div>
           </div>
         </div>
