@@ -14,25 +14,25 @@ const translations = {
     projects: [
       {
         title: 'Plataforma E-commerce',
-        description: 'Plataforma completa de comercio electrónico con gestión de inventario, pagos y analytics.',
+        description: 'Plataforma de comercio electrónico para la compra de ropa, equipos y calzado clasificados por deportes, desarrollada como proyecto universitario.',
         image: '/project-ecommerce.webp',
-        technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+        technologies: ['React', 'Vite', 'CSS Modules', 'C#', 'MySQL'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
         title: 'StartConsulting - Landing Page',
-        description: 'Landing page profesional para consultoría de software con diseño responsive y animaciones.',
+        description: 'Consultoría LandingPage que combina el desarrollo de soluciones tecnológicas personalizadas con una misión educativa.',
         image: '/project-consulting.webp', 
-        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+        technologies: ['Astro', 'Tailwind'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
         title: 'Body Calculator - Web App',
-        description: 'Aplicación web para cálculos corporales con interfaz moderna y funcionalidades avanzadas.',
+        description: 'Web App diseñada para ayudar a los usuarios a calcular su ingesta diaria de calorías y distribución de macronutrientes basada en métricas personales como edad, peso, altura y nivel de actividad física. Ya sea que su objetivo es perder, mantener o ganar peso, esta herramienta proporciona un enfoque personalizado para administrar sus necesidades nutricionales.',
         image: '/project-bodycalculator.webp',
-        technologies: ['React', 'TypeScript', 'Vite', 'PWA'],
+        technologies: ['JS', 'CSS Modules', 'Vite', 'PWA'],
         liveUrl: '#',
         codeUrl: '#'
       },
@@ -40,15 +40,15 @@ const translations = {
         title: 'Sheet From Form - Automatización',
         description: 'Sistema de automatización que conecta formularios web con hojas de cálculo en tiempo real.',
         image: '/project-sheetform.webp',
-        technologies: ['Node.js', 'Google Sheets API', 'Webhook', 'Express'],
+        technologies: ['Node.js', 'React', 'Vite', 'CSS Modules', 'Express', 'SQLite'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
         title: 'Zetio - App Deportiva',
-        description: 'Plataforma moderna para gestión de torneos deportivos con interfaz mobile-first.',
+        description: 'Web App Tournament Platform es una aplicación web diseñada para ayudar a los clubes deportivos a gestionar sus torneos, estadísticas y jugadores, proporcionando tanto interfaces de administración como de usuario. El objetivo es ofrecer una solución escalable, modular y fácil de mantener para la organización de eventos deportivos.',
         image: '/project-zetio.webp',
-        technologies: ['React Native', 'Firebase', 'Redux', 'Expo'],
+        technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA'],
         liveUrl: '#',
         codeUrl: '#'
       }
@@ -62,41 +62,41 @@ const translations = {
     projects: [
       {
         title: 'E-commerce Platform',
-        description: 'Complete e-commerce platform with inventory management, payments and analytics.',
+        description: 'Sports E-commerce platform for purchasing clothing, gear, and footwear classified by various sports, developed as a university project.',
         image: '/project-ecommerce.webp',
-        technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+        technologies: ['React', 'Vite', 'CSS Modules', 'C#', 'MySQL'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
         title: 'StartConsulting - Landing Page',
-        description: 'Professional landing page for software consulting with responsive design and animations.',
+        description: 'LandingPage consultancy that combines the development of custom technology solutions with an educational mission.',
         image: '/project-consulting.webp',
-        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+        technologies: ['Astro', 'Tailwind'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
         title: 'Body Calculator - Web App',
-        description: 'Web application for body calculations with modern interface and advanced features.',
+        description: 'Web App designed to help users calculate their daily caloric intake and macronutrient distribution based on personal metrics such as age, weight, height, and physical activity level. Whether you aim to lose, maintain, or gain weight, this tool provides a personalized approach to managing your nutritional needs.',
         image: '/project-bodycalculator.webp',
-        technologies: ['React', 'TypeScript', 'Vite', 'PWA'],
+        technologies: ['JS', 'CSS Modules', 'Vite', 'PWA'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
         title: 'Sheet From Form - Automation',
-        description: 'Automation system that connects web forms with spreadsheets in real-time.',
+        description: 'Its a custom software for a contability company to improve execution times of some activities with the implementation with documents of Excel',
         image: '/project-sheetform.webp',
-        technologies: ['Node.js', 'Google Sheets API', 'Webhook', 'Express'],
+        technologies: ['Node.js', 'React', 'Vite', 'CSS Modules', 'Express', 'SQLite'],
         liveUrl: '#',
         codeUrl: '#'
       },
       {
         title: 'Zetio - Sports App',
-        description: 'Modern platform for sports tournament management with mobile-first interface.',
+        description: 'Web App Tournament Platform is a web application designed to help sports clubs manage their tournaments, statistics, and players, providing both admin and user interfaces. The goal is to offer a scalable, modular, and easy-to-maintain solution for organizing sports events.',
         image: '/project-zetio.webp',
-        technologies: ['React Native', 'Firebase', 'Redux', 'Expo'],
+        technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA', 'Webhook', 'Stripe'],
         liveUrl: '#',
         codeUrl: '#'
       }
