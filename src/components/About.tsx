@@ -11,8 +11,8 @@ const translations = {
     description: 'Me especializo en transformar ideas complejas en código limpio y eficiente. Mi metodología se basa en la colaboración estrecha, la transparencia y la búsqueda de la excelencia técnica. Con años de experiencia en desarrollo full-stack, ayudo a empresas y emprendedores a materializar sus visiones digitales.',
     downloadCV: 'Descargar CV',
     stats: [
-      { icon: Award, label: 'Años de Experiencia', value: '5+' },
-      { icon: Users, label: 'Proyectos Completados', value: '50+' },
+      { icon: Award, label: 'Años de Experiencia', value: '3+' },
+      { icon: Users, label: 'Proyectos Completados', value: '15+' },
       { icon: Coffee, label: 'Tazas de Café', value: '∞' }
     ]
   },
@@ -22,8 +22,8 @@ const translations = {
     description: 'I specialize in transforming complex ideas into clean and efficient code. My methodology is based on close collaboration, transparency and the pursuit of technical excellence. With years of full-stack development experience, I help companies and entrepreneurs materialize their digital visions.',
     downloadCV: 'Download CV',
     stats: [
-      { icon: Award, label: 'Years of Experience', value: '5+' },
-      { icon: Users, label: 'Completed Projects', value: '50+' },
+      { icon: Award, label: 'Years of Experience', value: '3+' },
+      { icon: Users, label: 'Completed Projects', value: '15+' },
       { icon: Coffee, label: 'Cups of Coffee', value: '∞' }
     ]
   }
