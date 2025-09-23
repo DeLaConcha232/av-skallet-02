@@ -6,14 +6,14 @@ import { useApp } from '@/contexts/AppContext';
 const translations = {
   es: {
     greeting: 'Hola, soy',
-    title: 'Desarrollo software que no solo funciona, sino que impulsa tu negocio',
+    title: 'Transformando ideas en realidades',
     subtitle: 'Soluciones elegantes, escalables y con clase. No es solo tecnologia, es una forma de cambiar tu vida.',
     cta1: 'Ver Proyectos',
     cta2: 'Contáctame'
   },
   en: {
     greeting: 'Hi, I\'m',
-    title: 'I develop software that doesn\'t just work, it drives your business',
+    title: 'Turning ideas into reality',
     subtitle: 'Elegant, scalable and classy solutions. It’s not just technology, it’s a way to change your life.',
     cta1: 'View Projects', 
     cta2: 'Contact Me'
@@ -67,7 +67,7 @@ export const Hero: React.FC = () => {
           
           {/* Main Title */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            <span className="gradient-hero bg-clip-text text-transparent">av-skallet</span>
+            <span className="gradient-hero bg-clip-text text-transparent">Av-skallet</span>
           </h1>
           
           {/* Typewriter Effect */}
