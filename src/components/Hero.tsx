@@ -7,14 +7,14 @@ const translations = {
   es: {
     greeting: 'Hola, soy',
     title: 'Transformando ideas en realidades',
-    subtitle: 'Soluciones elegantes, escalables y con clase. No es solo algo tecnologico, es algo que puede cambiar tu vida.',
+    subtitle: 'Soluciones elegantes, escalables y centradas en el usuario. Transformo ideas complejas en código limpio y eficiente.',
     cta1: 'Ver Proyectos',
     cta2: 'Contáctame'
   },
   en: {
     greeting: 'Hi, I\'m',
     title: 'Turning ideas into reality',
-    subtitle: 'Elegant, scalable and classy solutions. It’s not just something technological, it’s something that can change your life.',
+    subtitle: 'Elegant, scalable, user-centered solutions. I transform complex ideas into clean and efficient code.',
     cta1: 'View Projects', 
     cta2: 'Contact Me'
   }
