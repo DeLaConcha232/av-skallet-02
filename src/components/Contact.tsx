@@ -22,8 +22,8 @@ const translations = {
     },
     info: [
     { icon: Mail, label: 'Email', value: 'avskallet@gmail.com' },
-      { icon: Phone, label: 'Teléfono', value: '+1 (555) 123-4567' },
-      { icon: MapPin, label: 'Ubicación', value: 'España' }
+      { icon: Phone, label: 'Teléfono', value: '449-143-1962' },
+      { icon: MapPin, label: 'Ubicación', value: 'Mexico' }
     ],
     success: 'Mensaje enviado correctamente. Te contactaré pronto!'
   },
@@ -40,8 +40,8 @@ const translations = {
     },
     info: [
       { icon: Mail, label: 'Email', value: 'avskallet@gmail.com' },
-      { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567' },
-      { icon: MapPin, label: 'Location', value: 'Spain' }
+      { icon: Phone, label: 'Phone', value: '449-143-1962' },
+      { icon: MapPin, label: 'Location', value: 'Mexico' }
     ],
     success: 'Message sent successfully. I\'ll contact you soon!'
   }
