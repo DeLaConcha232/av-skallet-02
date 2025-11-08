@@ -25,7 +25,7 @@ const translations = {
         description: 'Consultoría LandingPage que combina el desarrollo de soluciones tecnológicas personalizadas con una misión educativa.',
         image: '/project-consulting.webp', 
         technologies: ['Astro', 'Tailwind'],
-        liveUrl: 'https://startconsulting.surge.sh/',
+        liveUrl: '#',
         codeUrl: '#'
       },
       {
@@ -46,9 +46,41 @@ const translations = {
       },
       {
         title: 'Zetio - App Deportiva',
-        description: 'Web App Tournament Platform es una aplicación web diseñada para ayudar a los clubes deportivos a gestionar sus torneos, estadísticas y jugadores, proporcionando tanto interfaces de administración como de usuario. El objetivo es ofrecer una solución escalable, modular y fácil de mantener para la organización de eventos deportivos.',
+        description: 'Web App Tournament Platform es una aplicación web progresiva diseñada para ayudar a los clubes deportivos a gestionar sus torneos, estadísticas y jugadores, proporcionando tanto interfaces de administración como de usuario.',
         image: '/project-zetio.webp',
+        technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA', 'Webhook', 'Stripe'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Orpheon - Sistema de Lealtad',
+        description: 'Sistema de lealtad diseñado para ayudar a la empresa a gestionar sus programas de fidelización de clientes, proporcionando tanto interfaces de administración como de usuario.',
+        image: '/Sistemas-de-lealtad-Responsive.webp',
         technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Portafolio Personal - Web',
+        description: 'Portafolio personal que muestra tus proyectos y habilidades como desarrollador.',
+        image: '/portafolio.webp',
+        technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Dashboard Admin - Web',
+        description: 'Dashboard de administración que muestra métricas y estadísticas clave para la gestión de proyectos.',
+        image: '/Dashboard.webp',
+        technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Sistema de Tickets - Web',
+        description: 'Sistema de gestión de tickets para soporte al cliente, permitiendo la creación, seguimiento y resolución de incidencias.',
+        image: '/SistemaTickets.png',
+        technologies: ['React', 'Vite', 'Tailwind', 'SQLite', 'Shadcn UI'],
         liveUrl: '#',
         codeUrl: '#'
       }
@@ -73,7 +105,7 @@ const translations = {
         description: 'LandingPage consultancy that combines the development of custom technology solutions with an educational mission.',
         image: '/project-consulting.webp',
         technologies: ['Astro', 'Tailwind'],
-        liveUrl: 'https://startconsulting.surge.sh/',
+        liveUrl: '#',
         codeUrl: '#'
       },
       {
@@ -94,9 +126,42 @@ const translations = {
       },
       {
         title: 'Zetio - Sports App',
-        description: 'Web App Tournament Platform is a web application designed to help sports clubs manage their tournaments, statistics, and players, providing both admin and user interfaces. The goal is to offer a scalable, modular, and easy-to-maintain solution for organizing sports events.',
+        description: 'Web App Tournament Platform is a progressive web application designed to help sports clubs manage their tournaments, statistics, and players, providing both admin and user interfaces',
         image: '/project-zetio.webp',
         technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA', 'Webhook', 'Stripe'],
+        liveUrl: '#',
+        codeUrl: '#'
+      }
+      ,
+      {
+        title: 'Orpheon - Loyalty System',
+        description: 'A loyalty system designed to help companies manage their customer loyalty programs, providing both admin and user interfaces.',
+        image: '/Sistemas-de-lealtad-Responsive.webp',
+        technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Personal Portfolio - Web',
+        description: 'Personal portfolio showcasing projects and developer skills.',
+        image: '/portafolio.webp',
+        technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Admin Dashboard - Web',
+        description: 'Admin dashboard that displays key metrics and statistics for project management.',
+        image: '/Dashboard.webp',
+        technologies: ['React', 'Vite', 'Tailwind', 'Supabase', 'PostgreSQL', 'PWA'],
+        liveUrl: '#',
+        codeUrl: '#'
+      },
+      {
+        title: 'Tickets system - Web',
+        description: 'Ticket management system for customer support, allowing the creation, tracking, and resolution of issues.',
+        image: '/SistemaTickets.png',
+        technologies: ['React', 'Vite', 'Tailwind', 'SQLite', 'Shadcn UI'],
         liveUrl: '#',
         codeUrl: '#'
       }
@@ -149,13 +214,13 @@ export const Projects: React.FC = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <Button size="sm" className="flex-1">
+                  {/* <Button size="sm" className="flex-1">
                     <ExternalLink className="w-4 h-4 mr-2" />
                     {t.viewProject}
-                  </Button>
-                  <Button variant="outline" size="sm">
+                  </Button> */}
+                  {/* <Button variant="outline" size="sm">
                     <Github className="w-4 h-4" />
-                  </Button>
+                  </Button> */}
                 </div>
               </CardContent>
             </Card>

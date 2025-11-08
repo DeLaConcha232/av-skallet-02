@@ -27,6 +27,30 @@
     <meta name="twitter:description" content="Desarrollo software que no solo funciona, sino que impulsa tu negocio." />
     <meta name="twitter:image" content="https://av-skallet.com/og-image.jpg" />
 
+    <!-- Inicialización de tema: forzar modo oscuro por defecto en primera visita -->
+    <script>
+      (function() {
+        try {
+          var storageKey = 'av-skallet-theme';
+          var saved = localStorage.getItem(storageKey);
+          // Si no hay tema guardado, establecer oscuro y aplicar inmediatamente
+          if (!saved) {
+            localStorage.setItem(storageKey, 'dark');
+            saved = 'dark';
+          }
+          // Aplicar clase 'dark' sólo si el tema es oscuro
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          // Fallback: siempre aplicar dark si algo falla
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+
     <!-- Schema.org -->
     <script type="application/ld+json">
     {

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Upright orbit animation: moves element around a circle while keeping it upright */
+@keyframes orbit-upright {
+  0% {
+    transform: rotate(0deg) translateX(6.75rem) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(6.75rem) rotate(-360deg);
+  }
+}
+
 /* av-skallet Premium Design System - Professional developer landing page */
 
 @layer base {
